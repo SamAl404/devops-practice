@@ -33,7 +33,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6
       name: Build & push Docker image
       with:
-        mage: samal404/devops-practice
+        image: samal404/devops-practice
         tags: v1, latest
         registry: registry-url.io
         dockerfile: Dockerfile.ci
